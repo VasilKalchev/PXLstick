@@ -8,7 +8,7 @@
 
 
 ![poor fabrication](https://img.shields.io/badge/poor-orangered?style=for-the-badge&label=fabrication%20result)
-> The fabricated board from release v1.0 worked, but has [significant problems](/doc/releaselog.md#v10---2023-06-11).
+> The fabricated board from release v1.0 worked, but has [significant problems][releaselog_v1_0].
 >
 > :exclamation: Browse [repository releases][repo_releases] for a better version.
 
@@ -56,7 +56,7 @@ If you have made modifications to the PCB and want to regenerate the exports - y
 
 There are two footprints for the INMP441 mic. *U3* is for its 9-terminal LGA_CAV package (located on the back of the PCB) and *A1* is for its breakout board (can be soldered on either side). When using the breakout board - don't solder *C7*, *R9* and *R10*.
 
-#### Omitting unneeded peripherals
+#### Optional peripherals
  - IR receiver (*U2, R8, C6*)
  - rotary encoder (*RE1, R2, R3, R4, C3, C4, C5*)
  - microphone (*U2/A1, R9, R10, C7*)
@@ -136,7 +136,7 @@ You can now continue with [WLED's getting started guide][wled_getting_started_gu
 [head_img]: /doc/assets/head.png
 [inmp441_variants_img]: /doc/assets/inmp441_variants.png
 
-[releaselog_v1_0]: /doc/releaselog.md#v1.0 "/doc/releaselog.md"
+[releaselog_v1_0]: /doc/releaselog.md#v10---2023-06-11 "/doc/releaselog.md"
 [repo_release_v1_0]: https://github.com/VasilKalchev/PXLstick/releases/tag/v1.0 "PXL stick release v1.0"
 [repo_releases]: https://github.com/VasilKalchev/PXLstick/releases "All PXL stick releases"
 
@@ -156,8 +156,8 @@ You can now continue with [WLED's getting started guide][wled_getting_started_gu
 [esptool_install]: https://docs.espressif.com/projects/esptool/en/latest/esp32/ "Espressif's esptool.py documentation"
 [wled_web_installer]: https://install.wled.me/
 
-[wled_flash_method2]: https://kno.wled.ge/basics/install-binary/#:~:text=properly%20by%20WLED.-,Flashing%20method%202%3A%20esptool,-First%20of%20all "WLED's flashing guide - method 2"
-[wled_getting_started_guide]: https://kno.wled.ge/basics/getting-started/#:~:text=3.%20Use%20a%20WiFi%20device%20to%20connect%20to%20the%20access%20point%20WLED%2DAP "WLED's getting started guide - Wi-Fi configuration"
+[wled_flash_method2]: https://kno.wled.ge/basics/install-binary/#:~:text=properly%20by%20WLED.-,Flashing%20method%202%3A%20esptool,-First%20of%20all "WLED's flashing guide: method 2"
+[wled_getting_started_guide]: https://kno.wled.ge/basics/getting-started/#:~:text=3.%20Use%20a%20WiFi%20device%20to%20connect%20to%20the%20access%20point%20WLED%2DAP "WLED's getting started guide: Wi-Fi configuration"
 
 
 
