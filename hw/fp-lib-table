@@ -1,0 +1,9 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Espressif")(type "KiCad")(uri "${KIPRJMOD}/lib/footprints/Espressif.pretty")(options "")(descr ""))
+  (lib (name "Vishay")(type "KiCad")(uri "${KIPRJMOD}/lib/footprints/Vishay.pretty")(options "")(descr ""))
+  (lib (name "TDK")(type "KiCad")(uri "${KIPRJMOD}/lib/footprints/TDK.pretty")(options "")(descr ""))
+  (lib (name "Pad")(type "KiCad")(uri "${KIPRJMOD}/lib/footprints/Pad.pretty")(options "")(descr ""))
+  (lib (name "NetTie")(type "KiCad")(uri "${KIPRJMOD}/lib/footprints/NetTie.pretty")(options "")(descr ""))
+  (lib (name "Board_breakout")(type "KiCad")(uri "${KIPRJMOD}/lib/footprints/Board_breakout.pretty")(options "")(descr ""))
+)

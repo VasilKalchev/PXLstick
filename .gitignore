@@ -1,7 +1,4 @@
-# For PCBs designed using KiCad: https://www.kicad.org/
-# Format documentation: https://kicad.org/help/file-formats/
-
-# Temporary files
+# KiCad temporary files
 *.000
 *.bak
 *.bck
@@ -17,13 +14,28 @@ _autosave-*
 *-save.kicad_pcb
 fp-info-cache
 
-# Netlist files (exported from Eeschema)
+# KiCad netlist
 *.net
 
-# Autorouter files (exported from Pcbnew)
+# KiCad autorouter
 *.dsn
 *.ses
 
+# Exported sheets
+/hw/export/*.pdf
+/hw/export/*.png
+/hw/export/*.svg
+
 # Exported BOM files
-*.xml
-*.csv
+/hw/export/bom.*
+
+# Exported Gerbers
+/hw/export/gerbers*
+/hw/export/*.zip
+
+# GIMP project
+*.xcf
+*/.xcf/
+
+# Other
+_*

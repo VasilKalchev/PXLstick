@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Espressif")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/Espressif.kicad_sym")(options "")(descr ""))
+  (lib (name "TSOP75438WTT")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/TSOP75438WTT/TSOP75438WTT.kicad_sym")(options "")(descr ""))
+  (lib (name "INMP441ACEZ-R7")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/INMP441ACEZ-R7.kicad_sym")(options "")(descr ""))
+  (lib (name "Pad")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/Pad.kicad_sym")(options "")(descr ""))
+  (lib (name "Board_breakout")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/Board_breakout.kicad_sym")(options "")(descr ""))
+)

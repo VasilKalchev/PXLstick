@@ -1,0 +1,1 @@
+kicad-cli sch export bom -o bom.csv --fields Reference,Value,Footprint,${QUANTITY} --group-by Value,Footprint --sort-field Reference --sort-asc --exclude-dnp --field-delimiter , --string-delimiter \" --ref-delimiter , --ref-range-delimiter .. ../pxl_stick.kicad_sch
