@@ -13,7 +13,7 @@ jobs:
         uses: linalinn/kicad-render@main
         with:
           pcb_file: hw/pxl_stick.kicad_pcb
-          output_path: ${{ github.workspace }}/images
+          output_path: doc/render
 
       - name: Setup Pages
         if: github.ref == 'refs/heads/main'
