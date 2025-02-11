@@ -14,3 +14,13 @@ jobs:
         with:
           pcb_file: hw/pxl_stick.kicad_pcb
           output_path: doc/assets/
+  
+      - name: Upload Artifact
+        if: github.ref == 'refs/heads/main'
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: "images"
+  
+      - uses: actions/download-artifact@v4
+      - name: Display structure of downloaded files
+        run: ls -R
