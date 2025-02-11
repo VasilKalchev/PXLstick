@@ -2,6 +2,7 @@ Images used in repository's readmes.
 
 
 <!--
+
 <details>
 <summary>assets checklist</summary>
 
@@ -11,4 +12,5 @@ Images used in repository's readmes.
  - [x] comment out this section
 
 </details>
+
 -->

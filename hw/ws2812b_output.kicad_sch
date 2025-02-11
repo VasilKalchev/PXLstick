@@ -11,108 +11,6 @@
 		(company "Vas' lab")
 	)
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.762) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector_Generic:Conn_01x01"
 			(pin_names
 				(offset 1.016) hide)
@@ -1084,12 +982,6 @@
 		(color 0 0 0 0)
 		(uuid "0cfb495e-2b15-46f2-bc01-54215fd0dfb5")
 	)
-	(junction
-		(at 157.48 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e0393469-9deb-4acb-8d3c-c863516dce67")
-	)
 	(wire
 		(pts
 			(xy 143.51 100.33) (xy 143.51 99.06)
@@ -1102,7 +994,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 87.63) (xy 157.48 87.63)
+			(xy 153.67 87.63) (xy 158.75 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1132,16 +1024,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 87.63) (xy 158.75 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88eaf66d-be77-46c8-893c-73ec683d4b01")
-	)
-	(wire
-		(pts
 			(xy 132.08 92.71) (xy 132.08 99.06)
 		)
 		(stroke
@@ -1162,16 +1044,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 86.36) (xy 157.48 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99b86e1e-cf35-4b76-bdd7-c457c31b93ed")
-	)
-	(wire
-		(pts
 			(xy 143.51 99.06) (xy 143.51 97.79)
 		)
 		(stroke
@@ -1189,17 +1061,6 @@
 			(type default)
 		)
 		(uuid "f9387873-9058-46e9-9ec0-cf6c48a43156")
-	)
-	(text "33..220 ohm right after buffer"
-		(exclude_from_sim no)
-		(at 104.14 102.87 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "2ac3e179-a309-448d-98ba-e741fc0064a8")
 	)
 	(text "\"Pin A and the direction control pin (DIR) are supported by VCCA and pin B\nis supported by VCCB.\"\n\n\"The high on the DIR allows data transmissions from A to B and a low on the\nDIR allows data transmissions from B to A.\"\n\n\n"
 		(exclude_from_sim no)
@@ -1316,7 +1177,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00fef277-931c-451c-9633-c995b95e4052")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR030"
 			(at 149.86 74.93 0)
 			(effects
 				(font
@@ -1367,7 +1228,7 @@
 		(instances
 			(project "pxl_stick"
 				(path "/a5523c19-014c-4424-8a20-2a6215a13500/df26c79e-2c59-48fe-bad3-3c883e11f59f"
-					(reference "#PWR031")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -1382,7 +1243,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "24963a6b-90e2-4b2a-8eaa-ccf4b3f1cd8b")
-		(property "Reference" "C15"
+		(property "Reference" "C16"
 			(at 152.4 65.4113 0)
 			(effects
 				(font
@@ -1391,7 +1252,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "470n"
 			(at 152.4 67.31 0)
 			(effects
 				(font
@@ -1436,7 +1297,7 @@
 		(instances
 			(project "pxl_stick"
 				(path "/a5523c19-014c-4424-8a20-2a6215a13500/df26c79e-2c59-48fe-bad3-3c883e11f59f"
-					(reference "C15")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -1530,7 +1391,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "31ede0ff-38b0-4ec2-86ed-1039aba21485")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR029"
 			(at 137.16 74.93 0)
 			(effects
 				(font
@@ -1581,7 +1442,7 @@
 		(instances
 			(project "pxl_stick"
 				(path "/a5523c19-014c-4424-8a20-2a6215a13500/df26c79e-2c59-48fe-bad3-3c883e11f59f"
-					(reference "#PWR030")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -1592,10 +1453,10 @@
 		(at 113.03 87.63 0)
 		(mirror y)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "7e459f36-4d0d-480b-8a16-3720e3b97c06")
 		(property "Reference" "J4"
 			(at 110.49 86.36 0)
@@ -1616,7 +1477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm"
 			(at 113.03 87.63 0)
 			(effects
 				(font
@@ -1664,7 +1525,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8f29a198-182d-4959-a63b-68f5570a5a35")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR028"
 			(at 149.86 67.31 0)
 			(effects
 				(font
@@ -1714,7 +1575,7 @@
 		(instances
 			(project "pxl_stick"
 				(path "/a5523c19-014c-4424-8a20-2a6215a13500/df26c79e-2c59-48fe-bad3-3c883e11f59f"
-					(reference "#PWR029")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -1729,7 +1590,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a157ca07-c494-4ea3-888a-4ef4b888e77a")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR031"
 			(at 140.97 81.28 0)
 			(effects
 				(font
@@ -1779,75 +1640,7 @@
 		(instances
 			(project "pxl_stick"
 				(path "/a5523c19-014c-4424-8a20-2a6215a13500/df26c79e-2c59-48fe-bad3-3c883e11f59f"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 157.48 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "afd08803-f74d-478e-b3a2-9208ca29c0ed")
-		(property "Reference" "TP8"
-			(at 160.02 82.423 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 160.02 84.963 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 162.56 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 157.48 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "92bd89aa-a270-4979-8f7e-f37dd012b170")
-		)
-		(instances
-			(project "pxl_stick"
-				(path "/a5523c19-014c-4424-8a20-2a6215a13500/df26c79e-2c59-48fe-bad3-3c883e11f59f"
-					(reference "TP8")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -1862,7 +1655,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bbbf443b-4235-47ad-a4fe-ebf083abfb54")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR027"
 			(at 137.16 67.31 0)
 			(effects
 				(font
@@ -1912,7 +1705,7 @@
 		(instances
 			(project "pxl_stick"
 				(path "/a5523c19-014c-4424-8a20-2a6215a13500/df26c79e-2c59-48fe-bad3-3c883e11f59f"
-					(reference "#PWR028")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -1927,7 +1720,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bcc58d59-965c-46ba-9d6c-2ca679171ba2")
-		(property "Reference" "C14"
+		(property "Reference" "C15"
 			(at 139.7 65.4113 0)
 			(effects
 				(font
@@ -1936,7 +1729,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "470n"
 			(at 139.7 67.31 0)
 			(effects
 				(font
@@ -1981,7 +1774,7 @@
 		(instances
 			(project "pxl_stick"
 				(path "/a5523c19-014c-4424-8a20-2a6215a13500/df26c79e-2c59-48fe-bad3-3c883e11f59f"
-					(reference "C14")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -1996,7 +1789,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bf0e7851-8532-45ba-a2bd-b69e738549d5")
-		(property "Reference" "R13"
+		(property "Reference" "R15"
 			(at 127 85.09 90)
 			(effects
 				(font
@@ -2004,7 +1797,7 @@
 				)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "430"
 			(at 127 90.17 90)
 			(effects
 				(font
@@ -2048,7 +1841,7 @@
 		(instances
 			(project "pxl_stick"
 				(path "/a5523c19-014c-4424-8a20-2a6215a13500/df26c79e-2c59-48fe-bad3-3c883e11f59f"
-					(reference "R13")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -2063,7 +1856,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d46de1b3-3d69-4dbb-a1ea-7b47bc217a88")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR033"
 			(at 143.51 106.68 0)
 			(effects
 				(font
@@ -2114,7 +1907,7 @@
 		(instances
 			(project "pxl_stick"
 				(path "/a5523c19-014c-4424-8a20-2a6215a13500/df26c79e-2c59-48fe-bad3-3c883e11f59f"
-					(reference "#PWR034")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -2129,7 +1922,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d750bced-b02c-41fc-9861-8349123be72b")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR032"
 			(at 146.05 81.28 0)
 			(effects
 				(font
@@ -2179,7 +1972,7 @@
 		(instances
 			(project "pxl_stick"
 				(path "/a5523c19-014c-4424-8a20-2a6215a13500/df26c79e-2c59-48fe-bad3-3c883e11f59f"
-					(reference "#PWR033")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
