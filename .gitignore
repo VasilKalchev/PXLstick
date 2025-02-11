@@ -12,6 +12,7 @@ _autosave-*
 *.tmp
 *-save.pro
 *-save.kicad_pcb
+*.kicad_pcb.lck
 fp-info-cache
 
 # KiCad netlist
@@ -32,6 +33,9 @@ fp-info-cache
 # Exported Gerbers
 /hw/export/gerbers*
 /hw/export/*.zip
+
+# Exported models
+/hw/export/*.step
 
 # GIMP project
 *.xcf
