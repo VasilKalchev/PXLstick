@@ -6,4 +6,5 @@
   (lib (name "Pad")(type "KiCad")(uri "${KIPRJMOD}/lib/footprints/Pad.pretty")(options "")(descr ""))
   (lib (name "NetTie")(type "KiCad")(uri "${KIPRJMOD}/lib/footprints/NetTie.pretty")(options "")(descr ""))
   (lib (name "Board_breakout")(type "KiCad")(uri "${KIPRJMOD}/lib/footprints/Board_breakout.pretty")(options "")(descr ""))
+  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Library.pretty")(options "")(descr ""))
 )
