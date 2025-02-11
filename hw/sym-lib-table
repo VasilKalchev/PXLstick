@@ -5,5 +5,4 @@
   (lib (name "INMP441ACEZ-R7")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/INMP441ACEZ-R7.kicad_sym")(options "")(descr ""))
   (lib (name "Pad")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/Pad.kicad_sym")(options "")(descr ""))
   (lib (name "Board_breakout")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/Board_breakout.kicad_sym")(options "")(descr ""))
-  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Library.kicad_sym")(options "")(descr ""))
 )
