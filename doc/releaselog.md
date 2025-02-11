@@ -2,7 +2,14 @@
 Fabrication results.
 
 
-## v1.0 - 2023-06-11
+## v1.1 - 2025-02-11
+![fix, not fabricated](https://img.shields.io/badge/fix%20(not%20fabricated)-indigo?style=for-the-badge&label=fabrication%20result)
+> [Release v1.1](/doc/releaselog.md#v1.1) is a fix for v1.0, but was not fabricated at the time of release.
+>
+> :memo: Check the latest [release note of this version](https://github.com/VasilKalchev/PXLstick/releases/tag/v1.1) for a possible update on the fabrication status.
+
+
+## v1.0-obsolete - 2023-06-11
 ![poor fabrication](https://img.shields.io/badge/poor-orangered?style=for-the-badge&label=fabrication%20result)
 > Works, but has significant problems.
 

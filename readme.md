@@ -7,10 +7,10 @@
 ![images of the 3D render of the board from different angles and of the PCB project][head_img]
 
 
-![in development](https://img.shields.io/badge/in_development-dimgrey?style=for-the-badge&label=fabrication%20result)
-> This version is currently in development...
+![fix, not fabricated](https://img.shields.io/badge/fix%20(not%20fabricated)-indigo?style=for-the-badge&label=fabrication%20result)
+> [Release v1.1](/doc/releaselog.md#vX.Y) is a fix for v1.0, but was not fabricated at the time of release.
 >
-> :hourglass_flowing_sand: Wait for the release or browse [repository releases][repo_releases] for an older, completed version.
+> :memo: Check the latest [release note of this version](https://github.com/VasilKalchev/PXLstick/releases/tag/v1.1) for a possible update on the fabrication status.
 
 
 ### WLED firmware
@@ -32,9 +32,6 @@
 
 
 ## How to use it?
-> [!WARNING]
-> This version of the board has problems discovered after the release. It's not recommended for use!
-
 
 1. [PCB fabrication](#1-pcb-fabrication)
 2. [Assembly](#2-assembly)
@@ -66,6 +63,8 @@ There are two footprints for the INMP441 mic. *U3* is for its 9-terminal LGA_CAV
 The board is powered with 5V by soldering wires to the through-hole pads marked with "5V" and the symbol for ground (located below ESP32-WROOM-32E).
 
 WS281x's data wire is soldered to the through-hole pad marked with the LED graphic.
+
+Recommended rotary encoder's knob diameter is 20mm.
 
 Holes *H1* and *H2* are used for mounting the board with 2mm screws.
 
@@ -118,26 +117,28 @@ You can now continue with [WLED's getting started guide][wled_getting_started_gu
 > After connecting the board to your Wi-Fi network you can apply the provided base configuration by going to "Config" > "Security & Updates" > "Restore configuration" and uploading the provided [base configuration file][dw_base_cfg]. Then you'll have to configure the Wi-Fi again.
 
 #### Board connections:
-| ESP32 pin | peripheral              |
-|-----------|-------------------------|
-| GPIO 4    | WS281x                  |
-| GPIO 32   | touch button "square"   |
-| GPIO 33   | touch button "triangle" |
-| GPIO 23   | IR receiver             |
-| GPIO 27   | rotary encoder 1        |
-| GPIO 16   | rotary encoder 2        |
-| GPIO 17   | rotary encoder button   |
-| GPIO 15   | INMP441 SD              |
-| GPIO 13   | INMP441 WS              |
-| GPIO 25   | INMP441 SCK             |
+| Function    | GPIO    |
+|-------------|---------|
+| WS281x      | GPIO 4  |
+| "square"    | GPIO 32 |
+| "triangle"  | GPIO 33 |
+| "circle"    | GPIO 14 |
+| RE 1        | GPIO 27 |
+| RE 2        | GPIO 16 |
+| RE BTN      | GPIO 17 |
+| LED         | GPIO 2  |
+| IR receiver | GPIO 23 |
+| INMP441 SD  | GPIO 15 |
+| INMP441 WS  | GPIO 13 |
+| INMP441 SCK | GPIO 25 |
 
 
 <!-- links -->
 [head_img]: /doc/assets/head.png
 [inmp441_variants_img]: /doc/assets/inmp441_variants.png
 
-[releaselog_v1_1]: /doc/releaselog.md#v10---2023-06-11 "/doc/releaselog.md"
-[repo_release_v1_1]: https://github.com/VasilKalchev/PXLstick/releases/tag/v1.1 "PXL stick release v1.1"
+[releaselog_v1_1]: /doc/releaselog.md#v11---2025-02-11 "/doc/releaselog.md"
+[repo_release_v1_1]: https://github.com/VasilKalchev/PXLstick/releases/tag/v1.1 "PXL stick version v1.1"
 [repo_releases]: https://github.com/VasilKalchev/PXLstick/releases "All PXL stick releases"
 
 [wled_repo]: https://github.com/Aircoookie/WLED "WLED's repository"
@@ -161,14 +162,15 @@ You can now continue with [WLED's getting started guide][wled_getting_started_gu
 
 
 
+<!-- checklist & fabrication result template
 
 <details>
 <summary>/readme.md checklist</summary>
 
- - [ ] set current version (after project name)
- - [ ] set fabrication status
- - [ ] update sections: [Characteristics](#characteristics) and [How to use it?](#how-to-use-it)
- - [ ] comment out this "checklist" and "templates" sections
+ - [x] set current version (after project name)
+ - [x] set fabrication status
+ - [x] update sections: [Characteristics](#characteristics) and [How to use it?](#how-to-use-it)
+ - [x] comment out this "checklist" and "templates" sections
 
 </details>
 
@@ -234,3 +236,5 @@ You can now continue with [WLED's getting started guide][wled_getting_started_gu
 > :memo: Check the latest [release note of this version](https://github.com/VasilKalchev/PXLstick/releases/tag/vX.Y) for a possible update on the fabrication status.
 
 </details>
+
+-->
