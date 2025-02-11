@@ -8,7 +8,7 @@
 
 
 ![fix, not fabricated](https://img.shields.io/badge/fix%20(not%20fabricated)-indigo?style=for-the-badge&label=fabrication%20result)
-> [Release v1.1](/doc/releaselog.md#vX.Y) is a fix for v1.0, but was not fabricated at the time of release.
+> [Release v1.1](/doc/releaselog.md#v1.1) is a fix for v1.0, but was not fabricated at the time of release.
 >
 > :memo: Check the latest [release note of this version](https://github.com/VasilKalchev/PXLstick/releases/tag/v1.1) for a possible update on the fabrication status.
 
@@ -70,7 +70,7 @@ Holes *H1* and *H2* are used for mounting the board with 2mm screws.
 
 
 ### 4. Firmware binary
-The [release][repo_release_v1_1] includes a [customized WLED binary][dw_binary]. This is required, because the WLED firmware supports rotary encoders when compiled with a "usermod".
+The [release][repo_release_v1_1] includes a [custom WLED build][dw_binary] compiled with a rotary encoder "usermod" and preconfigured. If you're not planning on using the rotary encoder, you can use the official build.
 
 If you want to customize your build further - you can use my [fork of WLED][wled_fork] which includes the [configuration][wled_fork_cfg] for the custom build.
 
@@ -114,7 +114,7 @@ You can avoid installing `esptool` by using [WLED's web installer][wled_web_inst
 You can now continue with [WLED's getting started guide][wled_getting_started_guide] to configure your board.
 
 > [!TIP]
-> After connecting the board to your Wi-Fi network you can apply the provided base configuration by going to "Config" > "Security & Updates" > "Restore configuration" and uploading the provided [base configuration file][dw_base_cfg]. Then you'll have to configure the Wi-Fi again.
+> After connecting the board to your Wi-Fi network you can apply the provided base configuration by going to "Config" > "Security & Updates" > "Restore configuration" and uploading the provided [base configuration file][dw_base_cfg] (after that, you'll have to configure the Wi-Fi again).
 
 #### Board connections:
 | Function    | GPIO    |
