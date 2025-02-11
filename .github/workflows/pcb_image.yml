@@ -14,6 +14,7 @@ jobs:
         with:
           pcb_file: hw/pxl_stick.kicad_pcb
           output_path: doc/assets/
+          animation: gif
   
       - name: Upload pages Artifact
         if: github.ref == 'refs/heads/main'
