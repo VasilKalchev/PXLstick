@@ -84,8 +84,6 @@
         "silk_overlap|72870256|103191303|1723d8b7-40fc-4d4b-8c21-1ed61c4c4cb8|9468e52c-f761-4139-815f-20380f2be72a",
         "silk_overlap|73358354|103197712|9468e52c-f761-4139-815f-20380f2be72a|ce911d3f-3079-48ea-b6f8-71cba18a3885",
         "silk_overlap|73993182|102237512|2dd1ce70-abc8-4694-b4e8-b39b5e4c7022|9468e52c-f761-4139-815f-20380f2be72a",
-        "silk_overlap|76881353|103054260|9468e52c-f761-4139-815f-20380f2be72a|e1b50e1c-7ad0-482b-99da-8be3b8742e96",
-        "silk_overlap|78920000|130570963|6a945b49-1e0d-4bc9-9008-b14474e8d20b|cb94ae93-1a9d-40f6-94df-46e645c891df",
         "solder_mask_bridge|73170597|114797437|9c49f269-43ac-4ce6-82d8-caac1fc1d503|e500308d-c26b-4904-a1dd-7fcfe2edab10"
       ],
       "meta": {
@@ -145,8 +143,8 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.12,
-        "min_connection": 0.12,
+        "min_clearance": 0.15,
+        "min_connection": 0.13,
         "min_copper_edge_clearance": 0.2,
         "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.2,
@@ -156,10 +154,10 @@
         "min_silk_clearance": 0.15,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.12,
-        "min_via_annular_width": 0.075,
-        "min_via_diameter": 0.4,
+        "min_through_hole_diameter": 0.2,
+        "min_track_width": 0.13,
+        "min_via_annular_width": 0.15,
+        "min_via_diameter": 0.35,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
@@ -256,12 +254,12 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.45,
-          "drill": 0.3
+          "diameter": 0.4,
+          "drill": 0.2
         },
         {
           "diameter": 0.5,
-          "drill": 0.3
+          "drill": 0.2
         },
         {
           "diameter": 0.6,
@@ -269,35 +267,11 @@
         },
         {
           "diameter": 0.7,
-          "drill": 0.3
-        },
-        {
-          "diameter": 0.7,
-          "drill": 0.4
-        },
-        {
-          "diameter": 0.8,
           "drill": 0.4
         },
         {
           "diameter": 0.8,
           "drill": 0.5
-        },
-        {
-          "diameter": 1.0,
-          "drill": 0.3
-        },
-        {
-          "diameter": 1.0,
-          "drill": 0.4
-        },
-        {
-          "diameter": 1.0,
-          "drill": 0.5
-        },
-        {
-          "diameter": 1.0,
-          "drill": 0.6
         }
       ],
       "zones_allow_external_fillets": false
