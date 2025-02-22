@@ -38,9 +38,5 @@ fp-info-cache
 # Exported models
 /hw/export/*.step
 
-# GIMP project
-*.xcf
-*/.xcf/
-
 # Other
 _*
