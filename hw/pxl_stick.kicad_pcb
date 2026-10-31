@@ -2002,7 +2002,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74LVC1T45DCK"
+		(property "Value" "SN74LVC1T45DBV"
 			(at -7.644651 0.044651 180)
 			(layer "F.Fab")
 			(uuid "ff9ca718-9d0e-4716-b5f8-dd1e1b3d15a7")

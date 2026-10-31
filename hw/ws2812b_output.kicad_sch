@@ -1320,7 +1320,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74LVC1T45DCK"
+		(property "Value" "SN74LVC1T45DBV"
 			(at 153.67 96.52 0)
 			(effects
 				(font

@@ -23,4 +23,4 @@ New board versions are developed in a separate branch.
 Every change to the board is documented in [changelog.md](changelog.md).
 
 ### Before release
-The [release_checklist.md](release_checklist.md) is completed.
+A `release_checklist.md` is created in this directory and completed. It is deleted as its last step, so it only exists during a release (the last one can be found in the [repository's history](https://github.com/VasilKalchev/PXLstick/blob/22ab82ed39adb520c1ec7f8372f873361650d37e/doc/release_checklist.md)).

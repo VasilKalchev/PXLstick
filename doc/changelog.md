@@ -2,6 +2,9 @@
 
 
 ## v1.1 - 2025-02-11
+### Errata
+ - 2026-11-01: U5's value corrected from SN74LVC1T45DCK to SN74LVC1T45DBV to match its SOT-23-6 footprint (the DCK package is SC-70). Only the BOM and fabrication layer text change; copper, mask and silkscreen are unaffected, so the board version stays v1.1.
+
 ### Schematic
 #### Added
  - Pull-up resistors to "EN" and "BOOT" pins.
