@@ -1,3 +1,8 @@
+#!/usr/bin/env sh
+# Run from anywhere; paths are relative to this script's directory.
+set -eu
+cd "$(dirname "$0")"
+
 kicad-cli sch export pdf -o sch.pdf ../pxl_stick.kicad_sch
 
 kicad-cli pcb export svg -o pcb-sheet.svg -l B.Cu,B.Mask,B.Silkscreen,F.Cu,F.Mask,F.Silkscreen,Edge.Cuts ../pxl_stick.kicad_pcb

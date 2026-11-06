@@ -1,14 +1,14 @@
 # <p align="center">PXL stick v1.1</p>
 
 <p align="center">
-  Board for driving WS281x lights with ESP32 running <a href="https://github.com/Aircoookie/WLED">Aircoookie's WLED</a> firmware
+  Board for driving WS281x lights with ESP32 running <a href="https://github.com/wled/WLED">WLED</a> firmware
 </p>
 
 ![images of the 3D render of the board from different angles and of the PCB project][head_img]
 
 
 ![fix, not fabricated](https://img.shields.io/badge/fix%20(not%20fabricated)-indigo?style=for-the-badge&label=fabrication%20result)
-> [Release v1.1](/doc/releaselog.md#v1.1) is a fix for v1.0, but was not fabricated at the time of release.
+> [Release v1.1](/doc/releaselog.md#v11---2025-02-11) is a fix for v1.0, but was not fabricated at the time of release.
 >
 > :memo: Check the latest [release note of this version](https://github.com/VasilKalchev/PXLstick/releases/tag/v1.1) for a possible update on the fabrication status.
 
@@ -24,7 +24,7 @@
 *The board is intended for mounting on some kind of vertical stick, that has a **WS281x LED strip** on it.*
 
  - Runs a **custom build** of WLED on a [ESP32-WROOM-32E][esp32_wroom_32e] module.
- - Physically controllable through **2 user configurable touch buttons** and a **rotary encoder** for brightness and color.
+ - Physically controllable through **3 user configurable touch buttons** (the provided v1.1 firmware enables 2 of them: "square" and "triangle") and a **rotary encoder** for brightness and color.
  - It also has an **infrared receiver** for further flexibility.
  - Equipped with an I<sup>2</sup>S mic to enable WLED's **audio reactive** effects.
  - **Level shifted** WS281x data signal.
@@ -56,7 +56,7 @@ There are two footprints for the INMP441 mic. *U3* is for its 9-terminal LGA_CAV
 #### Optional peripherals
  - IR receiver (*U2, R8, C6*)
  - rotary encoder (*RE1, R2, R3, R4, C3, C4, C5*)
- - microphone (*U2/A1, R9, R10, C7*)
+ - microphone (*U3/A1, R9, R10, C7*)
  - power status LED (*D1, R1*)
 
 ### 3. Wiring and mounting
@@ -141,14 +141,14 @@ You can now continue with [WLED's getting started guide][wled_getting_started_gu
 [repo_release_v1_1]: https://github.com/VasilKalchev/PXLstick/releases/tag/v1.1 "PXL stick version v1.1"
 [repo_releases]: https://github.com/VasilKalchev/PXLstick/releases "All PXL stick releases"
 
-[wled_repo]: https://github.com/Aircoookie/WLED "WLED's repository"
+[wled_repo]: https://github.com/wled/WLED "WLED's repository"
 [esp32_wroom_32e]: https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf "ESP32-WROOM-32E datasheet"
 [inmp441]: https://invensense.tdk.com/wp-content/uploads/2015/02/INMP441.pdf "INMP441 datasheet"
 [jlcpcb_gerbers_spec]: https://jlcpcb.com/help/article/362-how-to-generate-gerber-and-drill-files-in-kicad-7 "JLCPCB: How to generate Gerber and drill files in KiCad 7"
 
 [dw_gerbers]: https://github.com/VasilKalchev/PXLstick/releases/download/v1.1/gerbers_jlcpcb.zip "Download gerbers_jlcpcb.zip"
 [dw_binary]: https://github.com/VasilKalchev/PXLstick/releases/download/v1.1/WLED_0.14.3_PXLstick_v1.1.bin "Download WLED_0.14.3_PXLstick_v1.1.bin"
-[dw_bootloader]: https://github.com/Aircoookie/WLED/releases/download/v0.13.1/esp32_bootloader_v4.bin "Download esp32_bootloader_v4.bin"
+[dw_bootloader]: https://github.com/wled/WLED/releases/download/v0.13.1/esp32_bootloader_v4.bin "Download esp32_bootloader_v4.bin"
 [dw_base_cfg]: https://github.com/VasilKalchev/PXLstick/releases/download/v1.1/WLED_0.14.3_PXLstick_v1.1_basecfg.json "Download WLED_0.14.3_PXLstick_v1.1_basecfg.json"
 
 [wled_fork]: https://github.com/VasilKalchev/WLED "Fork of WLED repository for custom builds"
@@ -231,7 +231,7 @@ You can now continue with [WLED's getting started guide][wled_getting_started_gu
 ---
 
 ![fix, not fabricated](https://img.shields.io/badge/fix%20(not%20fabricated)-indigo?style=for-the-badge&label=fabrication%20result)
-> [Release vX.Y](/doc/releaselog.md#vX.Y) is a fix for vX.Y, but was not fabricated at the time of release.
+> [Release vX.Y](/doc/releaselog.md#vXY---202Y-MM-DD) is a fix for vX.Y, but was not fabricated at the time of release.
 >
 > :memo: Check the latest [release note of this version](https://github.com/VasilKalchev/PXLstick/releases/tag/vX.Y) for a possible update on the fabrication status.
 
